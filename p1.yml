@@ -6,3 +6,7 @@
        copy:
           content: "sucess intregrate"
           dest: /root/tower.txt
+     - name: copy2 file
+       copy:
+          content: "sucess intregrate"
+          dest: /root/toweer.txt
