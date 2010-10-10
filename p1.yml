@@ -1,0 +1,8 @@
+- name: tower  intregration with git
+  hosts:  web
+  user: root
+  tasks:
+     - name: copy file
+       copy:
+          content: "sucess intregrate"
+          dest: /root/tower.txt
